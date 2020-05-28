@@ -1,0 +1,22 @@
+name:                jhack-translator
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/Annelies-H/hack-assembler#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Annelies van Hoesel
+maintainer:          example@example.com
+copyright:           Copyright (c) 2020 Annelies van Hoesel
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable hack-assembler
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:         base >= 4.7 && < 5
+                       , megaparsec
+                       , containers == 0.6.2.1
